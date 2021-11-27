@@ -3,6 +3,8 @@
 Convert your RSS feed into a podcast
 This is a wrapper around [TTS](https://github.com/mozilla/TTS) to automatically add it to rss feeds
 
+Demo: https://user-images.githubusercontent.com/56257405/143682725-9cd264d2-641e-4a2d-8be4-c863c0a0c35a.mp4
+
 ## How to use
 ```
 git clone https://github.com/joy-void-joy/tacocast
@@ -17,14 +19,16 @@ You will need to input your own values in .env if you want to use it on your own
 python -m tacocast
 ```
 
+
 Resulting files will be in output (you can also change .env to automatically push to your server)
 
 ## Workflow
-My own workflow is to host a feed.xml file derived from in_feed.xml on my server. I use [Freshrss](https://freshrss.github.io/FreshRSS/en) on that file so that I can also aggregate other RSS feeds.
-I then use [bindfiles](https://github.com/joy-void-joy/bindfiles) to edit this feed.xml whenever I need to add something
+My own workflow is to host a feed.xml file derived from in_feed.xml on my server. I use [Freshrss](https://freshrss.github.io/FreshRSS/en) on that file so that I can also aggregate other RSS feeds.  
+I then use [bindfiles](https://github.com/joy-void-joy/bindfiles) to edit this feed.xml whenever I need to add something  
 For tacocast, I use cron/manual runs, and have an sshfs to output them directly on my server
 
 ## Todo
-[ ] add better comments/file separation
-[ ] remove tqdm.py and convert it into a PR to tqdm
-[ ] remove .env and convert it to a proper yaml configuration
+- [ ] add better comments/file separation
+- [ ] remove tqdm.py and convert it into a PR to tqdm
+- [ ] remove .env and convert it to a proper yaml configuratio
+
