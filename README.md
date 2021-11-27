@@ -1,11 +1,16 @@
 # tacocast
 
 Convert your RSS feed into a podcast
+This is a wrapper around [TTS](https://github.com/mozilla/TTS) to automatically add it to rss feeds
 
 ## How to use
 ```
 git clone https://github.com/joy-void-joy/tacocast
 cd tacocast
+```
+Create your own virtual environment. Then:
+```
+pip install -r requirements.txt
 ```
 You will need to input your own values in .env if you want to use it on your own RSS feed. Otherwise, just add entries to in_feed.xml
 ```
