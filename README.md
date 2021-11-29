@@ -1,6 +1,6 @@
 # tacocast
 
-Convert your RSS feed into a podcast
+Convert your RSS feed into a podcast (Self-hosted, tacotron version of [https://github.com/Stvad/pollycast/tree/master/pollycast] )  
 This is a wrapper around [TTS](https://github.com/mozilla/TTS) to automatically add it to rss feeds
 
 Demo: https://user-images.githubusercontent.com/56257405/143682725-9cd264d2-641e-4a2d-8be4-c863c0a0c35a.mp4
